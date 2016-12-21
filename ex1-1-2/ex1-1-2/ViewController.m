@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    //NSArray
+    NSArray *aryLog = @[@"a", @"r", @"y"];
+    NSLog(@"%@", aryLog);
+    
+    //NSDictionary
+    NSDictionary *dicLog = @{@"key1":@"d", @"key2":@"i", @"key3":@"c"};
+    NSLog(@"%@", dicLog);
 }
 
 - (void)didReceiveMemoryWarning {
